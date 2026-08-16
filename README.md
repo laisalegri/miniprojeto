@@ -15,7 +15,7 @@ Também gerar estatísticas simples e funções de agrupamentos para trazer info
 
 2 - Abra o arquivo **miniprojeto_lais.ipynb** e rode todas as células.
 
-> OBS: Se você abrir o arquivo **miniprojeto_lais.ipynb** no Google Colab, precisará enviar a base `varejo.csv` manualmente quando rodar a célula do item `2. Carregamento do dataset (base de dados)`.
+> OBS: Se você abrir o arquivo **miniprojeto_lais.ipynb** no Google Colab, precisará enviar a base `Base Varejo.csv` manualmente quando rodar a célula do item `2. Carregamento do dataset (base de dados)`.
 
 ---
 
