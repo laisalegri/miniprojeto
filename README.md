@@ -66,6 +66,12 @@ Durante o processo foram identificadas e removidas **96.553 linhas duplicadas**.
 
 Também foi identificado um produto com código **107** sem identificação de nome e categoria.
 
+### 2.1 Reflexão: ETL e qualidade de dados
+
+O tratamento da base foi importante para garantir que a análise fosse feita com dados mais confiáveis e consistentes. Antes da análise, foi necessário remover registros duplicados, tratar inconsistências, converter a coluna de data para `datetime` e identificar problemas como o produto 107, que não possuía nome nem categoria.
+
+Sem esse tratamento, os resultados poderiam ficar distorcidos: as 96.553 linhas duplicadas aumentariam artificialmente as contagens de vendas, o produto 107 poderia aparecer como uma categoria incorreta ou incompleta nos relatórios e, com a data como texto, seria mais difícil realizar análises por ano e por mês. Por isso, o tratamento dos dados foi uma etapa essencial antes da análise exploratória.
+
 ### 3. Estatística descritiva
 
 Foi realizada uma análise estatística da coluna referente à **quantidade de filhos dos clientes**, utilizando medidas como:
